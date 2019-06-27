@@ -1,0 +1,24 @@
+	新资讯网站路由详情
+
+	页面  	路由				文件地址
+
+	首页  	/  				front/index.blade.php
+	资讯 	/cat/news			front/cat/news.blade.php
+导航	生态 	/cat/shengtai      		front/cat/shengtai.blade.php
+	快讯 	/cat/quick-news			front/cat/quick-news.blade.php
+
+其他    登录 	/user/login			front/auth/login.blade.php
+	注册 	/user/reg/mobile		front/auth/mobile_reg.blade.php
+	认证选择/user/center/certs      	front/auth/usercenter_certs.blade.php
+	发起认证/user/center/certs/publish      front/auth/usercenter_create_certs.blade.php
+	投稿/发布/user/publish_post		front/auth/publish_post.blade.php
+	优秀作家 /good_writer			front/good_writer.blade.php
+	搜索结果 /search			front/search.blade.php
+
+个人	首页 	/user/center/index 		front/auth/usercenter.blade.php
+中心 	
+	账号安全 /user/center/account 		front/auth/usercenter_account.blade.php
+	我的收藏 /user/center/attention 	front/auth/usercenter_attention.blade.php
+	我发布的 /user/center/publish  	 	front/auth/usercenter_publish.blade.php
+	我的消息 /user/center/notice    	front/auth/usercenter_notice.blade.php
+	
